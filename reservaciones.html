@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Reservaciones</title>
+</head>
+<body>
+ 	<div class="hero-wrapper" style="">
+ 		<div class="hero js-hero" id="js-fullscreen-hero">
+ 			<div class="hero__content with-partners">
+ 				<div class="hero__branding centerwrapper centerwrapper--like-dealform-homepae" itemscope="" itemtype="http://schema.org/Organization">
+ 					<a href="" class="hero__link js-logo-home" itemprop="url">
+ 					
+ 					<div id="js-homepage-title" class="hero__title-wrapper">
+ 						<h1 class="hero__title">Ofertas de tus sitios de reservación favoritos
+ 							<span class="hero__subtitle">¡Busca una ciudad, hotel o lugar famoso!</span>
+ 						</h1>
+ 					</div>
+ 				</div>
+ 				<div class="hero__dealform-wrapper">
+ 					<form action="/" itemprop="potentialAction" itemscope="itemscope" itemtype="http://schema.org/SearchAction" class="dealform js-dealform dealform--no-detail" data-qa="dealform">
+ 						<div class="dealform__flex-wrapper">
+ 							<div class="dealform__query-wrapper" ref="">
+ 								<label class="visuallyhidden" for="querytext">Buscar</label>
+ 								<div>
+ 									<div class="searchquery-icon-container icon-magnifier">
+ 										<span class="icon-ic">
+ 											<svg xmlns="http://www.w3.org/2000/svg" focusable="false" tabindex="-1" width="24" height="24" viewBox="0 0 24 24">
+ 												<path class="svg-color--primary" fill="#37454D" d="M10 4c3.308 0 6 2.692 6 6s-2.692 6-6 6-6-2.692-6-6 2.692-6 6-6m0-2a8 8 0 100 16 8 8 0 000-16z"></path>
+ 												<path class="svg-color--secondary" fill="#37454D" stroke="#37454D" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M21 21l-6-6"></path>
+ 											</svg>
+ 										</span>
+ 									</div>
+ 									<input type="search" role="combobox" aria-expanded="false" aria-autocomplete="both" aria-owns="ssg-suggestions" autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="Escribe el nombre del hotel o destino" name="sQuery" class="js-query input querytext" id="querytext" itemprop="query">
+ 								</div>
+ 							</div>
+ 							<div class="calendar-button-wrapper calendar-button-wrapper--checkin">
+ 								<button class="dealform-button js-dealform-button-calendar dealform-button--checkin" key="checkInButton" data-qa="calendar-checkin" type="button">
+ 									<span class="flex">
+ 										<span class="icon-ic dealform-button__icon">
+ 											<svg xmlns="http://www.w3.org/2000/svg" focusable="false" tabindex="-1" width="18" height="16" viewBox="0 0 18 16">
+ 												<g class="svg-color--primary" fill="#37454D">
+ 													<path d="M16 1h-1a1 1 0 00-2 0H5a1 1 0 00-2 0H2a2 2 0 00-2 2v11a2 2 0 002 2h14a2 2 0 002-2V3a2 2 0 00-2-2zm1 13a1 1 0 01-1 1H2a1 1 0 01-1-1V5h16v9zm0-10H1V3c0-.552.45-1 1-1h14a1 1 0 011 1v1z"></path>
+ 													<circle cx="4.5" cy="8.5" r="1.5"></circle>
+ 												</g>
+ 											</svg>
+ 										</span>
+ 										<span class="dealform-button__text-wrapper">
+ 											<span class="dealform-button__head">Llegada</span>
+ 											<time class="dealform-button__label" datetime="2022-06-26">-- / -- / --</time>
+ 										</span>
+ 									</span>
+ 								</button>
+ 							</div>
+ 							<div class="calendar-button-wrapper calendar-button-wrapper--checkout">
+ 								<button class="dealform-button js-dealform-button-calendar dealform-button--checkout" key="checkOutButton" data-qa="calendar-checkout" type="button">
+ 									<span class="flex">
+ 										<span class="dealform-button__text-wrapper">
+ 											<span class="dealform-button__head">Salida</span>
+ 											<time class="dealform-button__label" datetime="2022-06-27">-- / -- / --</time>
+ 										</span>
+ 									</span>
+ 								</button>
+ 							</div>
+ 							<button class="dealform-button dealform-button--guests js-dealform-button-guests" type="button">
+ 								<span class="flex">
+ 									<span class="icon-ic icon-rtl dealform-button__icon dealform-button__icon--guests">
+ 										<svg xmlns="http://www.w3.org/2000/svg" focusable="false" tabindex="-1" width="24" height="24" viewBox="0 0 24 24">
+ 											<g class="svg-color--primary" fill="currentColor">
+ 												<path d="M13.13 12.14a4.5 4.5 0 10-7.26 0A5 5 0 002 17a3 3 0 003 3h9a3 3 0 003-3 5 5 0 00-3.87-4.86zM9.5 6a3.49 3.49 0 012.44 6A3.5 3.5 0 016 9.5 3.5 3.5 0 019.5 6zM14 19H5a2 2 0 01-2-2 4 4 0 013.74-4 4.41 4.41 0 005.52 0A4 4 0 0116 17a2 2 0 01-2 2z"></path>
+ 												<path d="M19.31 10.24A3.93 3.93 0 0020 8a4 4 0 00-6.94-2.69 5.87 5.87 0 01.7.71A3 3 0 1116 11a2.91 2.91 0 01-1.15-.23v.11a4.5 4.5 0 01-.28.83A4 4 0 0016 12a3.94 3.94 0 002.55-.94A3 3 0 0121 14a1 1 0 01-1 1h-2.35a6.67 6.67 0 01.26 1H20a2 2 0 002-2 4 4 0 00-2.69-3.76z"></path>
+ 											</g>
+ 										</svg>
+ 									</span>
+ 									<span class="dealform-button__text-wrapper">
+ 										<span class="dealform-button__head">1&nbsp;habitación</span>
+ 										<span class="dealform-button__label">2 huéspedes</span>
+ 									</span>
+ 								</span>
+ 							</button>
+ 							
+ 						</div>
+ 					</form>
+ 					<section class="dealform-partners">
+ 					</div>
+ 				</div>
+ 			</div>
+    
+</body>
+</html>
