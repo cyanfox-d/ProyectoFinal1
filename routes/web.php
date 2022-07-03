@@ -25,3 +25,7 @@ Route::get('Contactanos', function () {
 Route::get('Reservaciones', function () {
     return view('reservaciones');
 });
+Route::get('Reservaciones2', function () {
+    return view('reservaciones2');
+});
+Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');

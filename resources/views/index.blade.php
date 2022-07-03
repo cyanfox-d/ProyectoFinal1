@@ -1,1 +1,1 @@
-extends('Plantilla')
+@extends('Plantilla')

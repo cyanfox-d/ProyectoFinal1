@@ -12,7 +12,8 @@ return [
     | any other location as required by the application or its packages.
     |
     */
-
+    'Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider',
+    
     'name' => env('APP_NAME', 'Laravel'),
 
     /*
