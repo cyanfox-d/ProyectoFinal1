@@ -19,10 +19,10 @@ Route::get('/', function () {
 Route::get('Plantilla', function () {
     return view('plantilla');
 });
-Route::get('Contactanos', function () {
+Route::get('contactanos', function () {
     return view('contactanos');
 });
-Route::get('Reservaciones', function () {
+Route::get('reservaciones', function () {
     return view('reservaciones');
 });
 Route::get('Reservaciones2', function () {
